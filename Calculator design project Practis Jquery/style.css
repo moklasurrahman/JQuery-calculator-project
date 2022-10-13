@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(6, 197, 255);
+}
+h1{
+    text-align: center;
+}
+#cal-all{
+    margin: 0 auto;
+    width: 350;
+    text-align: center;
+    margin-top: 10px;
+
+    box-shadow: 0 4px 10px rgb(90, 90, 90);
+    transition: 0.4s;
+    font-size: 0;
+    
+
+}
+#cal-all:hover{
+    box-shadow: 0 16px 30px rgb(90,90,90);
+
+}
+#display .cmnt_bx{
+    width: 350px;
+    height: 140px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 5px;
+    letter-spacing: 2px;
+    text-align: right;
+    box-shadow: 0 4px 20px tomato;
+
+}
+/* #cal-body{
+    
+
+} */
+
+#button{
+    width: 87px;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: royalblue;
+    box-shadow: 0 4px 20px tomato;
+    color: white;
+
+
+}
+
+#button:hover{
+    background-color: seagreen;
+}
+
